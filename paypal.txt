@@ -1,0 +1,26 @@
+npm i creditcardpayments
+
+
+index.html
+ <script src="https://www.paypal.com/sdk/js?client-id=AQlIkLLI8oaMMZLimIT9AYiBN_T6qyfv37n-NJhaInscIIDJntnuSJyBSMU-IPM1I35tkRconNCqmF8o"></script>
+
+
+
+in component
+<div id="myPaypalButtons"></div>
+
+in component.ts
+import {render} from 'creditcardpayments/creditCardPayments'; 
+
+constructor(){
+    render(
+      {
+        id:"#myPaypalButtons",
+        currency: "EUR",
+        value: "100",
+        onApprove: (details) =>{
+          alert("approved")
+        }
+      }
+    );
+  }
