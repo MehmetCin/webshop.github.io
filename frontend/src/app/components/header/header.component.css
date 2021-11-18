@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    display: inline-block;
+}
+#page_header{
+    background-color: #3d8af7 ;
+    margin-left: 12.5%;
+    width: 75%;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+#page_logo{
+    margin-left: 3%;
+    width: 100px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+#page_title{
+    font-size: xxx-large;
+    display: inline-block;
+    margin-left: 3%;
+    
+}
+#navbar{
+    background-color: #3d8af7;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 2px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.header_buttons{
+
+    padding: 10px 25px 10px;
+    background-color:#3d8af7;
+    font-size: medium;
+    border: 0;
+}
+.header_buttons:first-child{
+    margin-left: 2%;
+}
+
+.header_buttons:hover{
+    background-color:#0a69ef;
+}
